@@ -1,0 +1,32 @@
+#full_screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+    padding-top:5%;
+}
+.deco_bar {
+    width: 100%;
+    height: 0.55em;
+    margin-top: 1.5%;
+}
+.deco_bar.blue {
+
+    background-color: #31ADE4;
+}
+.deco_bar.pink {
+    background-color: #E61380;
+}
+.deco_bar.yellow {
+    background-color: #FFEA00;
+}
+#logo_cnwatch {
+    top: 0;
+    max-width: 30%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+#connexion-form {
+    margin-top: 50%;

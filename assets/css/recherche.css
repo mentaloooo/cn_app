@@ -1,0 +1,105 @@
+/*GENERAL*/
+.container-fluid{
+    background-color: #121212;
+    height: 90vh;
+    width: 100%;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/*RECHERCHE*/
+.picto{
+    width: 25px;
+    margin-top: 20px;
+}
+.form-control{
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+
+/*Catégorie*/
+body > div.container-fluid > div > p{
+    color: white;
+    font-size: 20px;
+    margin-top: -0.6em;
+}
+p{
+    color: white;
+    font-size: 20px;
+    margin-top: -0.6em;
+}
+.bar_droite{
+    background-color: white;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    left: 0;
+}
+.bar_gauche{
+    background-color: white;
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+
+}
+/*GROUPE BOUTONS*/
+.btn-primary {
+    background-color:#ed0080;
+    border-color : #ed0080;
+}
+a.btn.my-2{
+    background-color:white;
+}
+.btn-outline-dark{
+    border-color: white;
+    color : white;
+}
+.btn-outline-dark:hover{
+    background-color:#ed0080; 
+}
+/* MENU DU BAS VIDEOS/JEUX*/
+.video_jeux{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    position: absolute; 
+    bottom: 0; 
+    padding-left: 0; 
+    padding-right: 0; 
+    text-align: center; 
+} 
+.video{ 
+    display: flex; 
+    background-color: white; 
+    color: black; 
+    width: 100%; 
+    text-align: center; 
+    height: 50px; 
+    border-top: solid 1px black; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.lien_video{ 
+    text-decoration: none; 
+    color: black; 
+    font-family: "LubalinBold", serif; 
+} 
+.lien_jeux{
+    text-decoration: none; 
+    color: white;
+    font-family: "LubalinBold", serif; 
+} 
+.jeux{ 
+    background-color: black; 
+    color: white; 
+    width: 100%; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}

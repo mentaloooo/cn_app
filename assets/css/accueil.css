@@ -1,0 +1,293 @@
+/* mon composant menu videos/jeux  */
+.menu_switch {
+}
+
+/* définition des liens  */
+.menu_switch .menu_switch__link {
+    color: black;
+}
+
+/* alternative, lien actif  */
+.menu_switch .menu_switch__link.active {
+
+}
+ /* end  */
+
+
+h2{
+    font-size: 1.1rem;
+}
+.titre-temps{
+    display: flex;
+    flex-direction: column;
+
+}
+.video_encours{
+    margin-top: 20px;
+}
+.video-lecture{
+    border-radius: 50%;
+    color: black;
+    position: relative;
+    display: flex;
+    width: 100%;
+
+}
+
+.texte_video_encours{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    height: auto;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 44%, rgba(32,32,32,1) 90%); 
+}
+h3{
+    font-size: 1.2rem;
+}
+
+
+html body div.video-encours img.img-fluid{
+    border-radius: 5%;
+}
+
+.titre-temps{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 32%, rgba(255,255,255,0) 100%); 
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+html body div.video-encours div.texte_video_encours p{
+    padding-left: 5px;
+    font-size: 0.8rem;
+}
+#file{
+    height: 10px;
+    width: 80%;
+    background-color: black;
+}
+html body div.container-fluid div.row div.col-8 div.video-encours div.texte_video_encours div.titre-temps progress#file{
+    margin-bottom: 5px;
+}
+html body div.container-fluid div.row div.col-8 div.video-encours div.texte_video_encours div.titre-temps label{
+    margin-right: 85px;
+}
+.bouton_play{
+    width: 50px;
+}
+#all_series_slider{
+    border-bottom: 1px solid black;
+}
+
+.proposition{
+    margin-top: 30px;
+    background-color: #FFF15C;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+
+}
+
+.img_slide{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    border-radius: 5%;
+
+
+}
+
+html body div.container-fluid.proposition div.row div.col-10.titre_proposition h2{
+    font-family: "LubalinBold", serif;
+    padding-bottom: 5px;
+}
+.bloc_texte_slide{
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+	padding-left: 5px;
+    padding-top: 5px;
+    background-color: whitesmoke;
+    z-index: 5;
+}
+.infos_episode{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+}
+.titre_video_proposition{
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+
+
+.favoris{
+    margin-bottom: 15px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.bloc_texte_slide_favoris{
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+	padding-left: 5px;
+    padding-top: 5px;
+    background-color: #fff15c;
+}
+h2{
+    font-family: "LubalinBold", serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+.btn_favoris{
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 5px;
+    padding:10px;
+}
+.btn_teentitans{
+    background-color: black;
+    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.btn_heros{
+    background-color: black;
+    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom: 15px;
+}
+
+html body div.container-fluid.favoris div.btn_favoris a{
+    color: white;
+    text-decoration: none;
+    font-family: "LubalinBold", serif;
+    font-size: 0.8rem;
+}
+
+.teentitans{
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #009BDF;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container_teentitans{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #009BDF;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.titrerose{
+    color: #ED0080;
+    font-family: "LubalinBold", serif;
+    font-weight: 800;
+}
+.titrejaune{
+    color: #FFF15C;
+    font-family: "LubalinBold", serif;
+    font-weight: 800;
+    margin-left: 5px;
+}
+.fleche_jaune{
+    fill: #FFF15C;
+    margin-left: 15px;
+}
+.fleche_blanche{
+    fill: #fff;
+    margin-left: 15px;
+}
+.titreblanc{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.favoris_slider .img_slide > img {
+    border-radius: 5% 5% 0 0;
+}
+.btn_favoris > a{
+    color: white;
+    font-family: "LubalinBold", serif;
+}
+.btn_teentitans > a {
+    color: white;
+    font-family: "LubalinBold", serif;
+}
+.titrenoir{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 800;
+}
+.hero_img{
+    border-radius: 0%;
+    margin-bottom: 10px;
+}
+.btn_heros a{
+    font-family: "LubalinBold", serif;
+    font-weight: 800;
+    color: white;
+}
+.continuer_regarder{
+    text-align: left;
+}
+.titreandplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn_play{
+    margin-right: 15px;
+    margin-top: -25px;
+}

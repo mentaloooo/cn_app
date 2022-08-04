@@ -1,0 +1,24 @@
+:root {
+    --app-header-height: 75px;
+    --app-footer-height: 50px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100%;
+}
+.app__head {
+    min-height: var(--app-header-height);
+}
+.app__footer {
+    min-height: var(--app-footer-height);
+}
+.app__main {
+    flex: 1;
+    max-height: calc(100vh - (var(--app-header-height) + var(--app-footer-height)));
+    overflow-y: auto;
+    overflow-x: hidden;
+}

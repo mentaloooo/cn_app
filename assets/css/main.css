@@ -1,0 +1,19 @@
+/*FONTS*/
+@font-face {/*TITLE FONT*/
+    font-family: "LubalinBold";
+    src: url("/Cn-app/assets/fonts/Lubalin-Graph-Bold.ttf"), 
+         url("/Cn-app/fonts/LubalinGraphStd-Bold.otf")   ;
+}
+@font-face { /*MAIN FONT*/
+    font-family: "Nunito";
+    src: url("/Cn-app/assets/fonts/Nunito-Regular.ttf");
+}
+* {
+    font-family: "Nunito", serif;
+}
+
+h1 {
+    font-family: "LubalinBold", serif;
+}
+
+
